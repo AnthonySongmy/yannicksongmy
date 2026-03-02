@@ -1,0 +1,43 @@
+/* MOBILE FIX */
+@media (max-width: 991px) {
+
+  /* Centrer image */
+  #sideNav .navbar-brand {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Taille image comme desktop */
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: auto;
+    display: block;
+  }
+
+  /* Centrer le contenu principal */
+  #about .my-auto {
+    text-align: center;
+  }
+
+  /* Centrer nom */
+  #about h1 {
+    text-align: center;
+  }
+
+  /* Centrer sous-titre */
+  #about .subheading {
+    text-align: center;
+  }
+
+  /* Centrer icônes sociales */
+  .list-social-icons {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  #about .img-profile {
+    max-width: 120px;
+  }
+}
